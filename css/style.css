@@ -12,18 +12,18 @@
 .img-container {
   position: relative;
 }
-.fill {
-  object-fit: fill;
+.section:first-of-type {
+  height: 300px;
+  background-color: aqua;
 }
-.contain {
-  object-fit: contain;
+
+.section:last-of-type {
+  height: 300px;
+  background-color: yellow;
 }
-.cover {
-  object-fit: cover;
+.img-1 {
+  float: right;
 }
-.scale-down {
-  object-fit: scale-down;
-}
-.none {
-  object-fit: none;
+img-2 {
+  float: left;
 }

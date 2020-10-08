@@ -1,0 +1,29 @@
+.img-border {
+  border: solid 5px palevioletred;
+}
+.img-border-2 {
+  border: 10px solid blueviolet;
+  border-radius: 15px;
+}
+.img-border-2:hover {
+  border: 10px solid blueviolet;
+  border-radius: 0%;
+}
+.img-container {
+  position: relative;
+}
+.fill {
+  object-fit: fill;
+}
+.contain {
+  object-fit: contain;
+}
+.cover {
+  object-fit: cover;
+}
+.scale-down {
+  object-fit: scale-down;
+}
+.none {
+  object-fit: none;
+}

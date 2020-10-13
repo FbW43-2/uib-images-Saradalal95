@@ -1,0 +1,86 @@
+.section-1 {
+  height: 75px;
+}
+.section-2 {
+  height: 300px;
+  width: 700px;
+}
+.section-3 {
+  height: 180px;
+}
+.section-4 {
+  height: 400px;
+}
+.border {
+  border: 2px solid gray;
+}
+i {
+  float: right;
+}
+h3 {
+  font-style: italic;
+  float: left;
+}
+
+h3:hover {
+  color: blue;
+}
+i:hover {
+  color: blue;
+}
+.img-1 {
+  float: left;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+h4 {
+  text-align: center;
+}
+.story {
+  height: 120px;
+  width: 120px;
+  border: 5px blue;
+  border-radius: 50%;
+  border-style: double;
+}
+.space {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.story:hover {
+  height: 150px;
+  width: 150px;
+  border: solid black 5px;
+}
+.img-2 {
+  height: 350px;
+  width: 300px;
+  opacity: 50%;
+}
+.space-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.img-2:hover {
+  opacity: 100%;
+}
+.caption {
+  display: block;
+}
+span {
+  color: black;
+  font-size: 20px;
+  font-style: bold;
+}

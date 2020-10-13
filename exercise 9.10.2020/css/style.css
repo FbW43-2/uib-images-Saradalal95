@@ -1,0 +1,52 @@
+.section:first-of-type {
+  background-color: aqua;
+}
+.section:nth-of-type(2) {
+  background-color: palevioletred;
+}
+.section:nth-of-type(3) {
+  background-color: navy;
+}
+.section:last-of-type {
+  background-color: burlywood;
+}
+section {
+  height: 250px;
+}
+img-1 {
+  float: left;
+}
+
+.img-2 {
+  border-radius: 50%;
+}
+.img-3 {
+  float: right;
+}
+.img-4 {
+  float: right;
+}
+img {
+  height: 150px;
+}
+.img-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-logo {
+  opacity: 50%;
+}
+.img-logo:hover {
+  opacity: 100%;
+}
+h1 {
+  text-align: center;
+}
+h1:hover {
+  color: orange;
+}
+img:hover {
+  border: 10px black solid;
+  height: 180px;
+}
